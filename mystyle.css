@@ -1,0 +1,55 @@
+@font-face { 
+    font-family: lll; 
+    src: url(FunSized.ttf);
+} 
+
+body {
+    background-color: hotpink;
+    background-image: url("rainbow_stars.jpg");
+    background-size: 100% 100% ;
+    background-size: cover; 
+}
+
+h1 {
+    font-family: lll, sans-serif;
+    text-align: center;
+    font-size: 45px;
+}
+
+#lita {
+    color: rgb(76, 15, 138)
+}
+
+#wrapper {
+    width: 600px;
+    height: 200px;
+    background-color: rgba(255,0,155,.7);
+    font-family: lll, sans-serif;    
+    margin: auto;
+/*    margin-top: 50px;*/
+
+}
+
+#btn {
+    background-color: lime;
+    color: #fff;
+    padding: 12px;
+    border-style: none;
+    font-weight: bold;
+    width: 150px;
+    font-family: lll, sans-serif;
+
+}
+
+#result {
+    font-family: lll, sans-serif;
+    width: 150px;
+    text-align: center
+
+}
+
+#para5 {
+    font-family: lll, sans-serif;
+    text-align: center;
+    font-size: 60px;
+}
