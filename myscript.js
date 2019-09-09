@@ -1,9 +1,8 @@
 var number1;
 var number2;
 
-var image1;
-image1 = "<img src='happy-cat.jpg'>"
-image2 = "<img src='grumpy-cat.jpg'>"
+image1 = "<img src='happy-cat.jpg'>";
+image2 = "<img src='grumpy-cat.jpg'>";
 
 
 number1 = Math.floor((Math.random() * 5) + 1);
@@ -41,17 +40,3 @@ btn.onclick = function () {
     answer = number1 + number2
     
     };
-
-
-
-
-
-    // function clicker(){
-    //     document.getElementById('para5').innerHTML="**********";   
-    //     }
-
-    // function myFunction() {
-    //     var myWindow = window.open("", "MsgWindow", "width=200, height=100");
-    //     myWindow.document.write("<img src='img.jpg'> This is 'MsgWindow'. I am 200px wide and 100px tall!");
-    // }
-
